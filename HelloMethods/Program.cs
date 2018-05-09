@@ -10,7 +10,10 @@ namespace HelloMethods
         public static void Main(string[] args)
         {
             string message = Message.GetMessage("fr");
-            Console.WriteLine(message);
+            string message2 = Message.GetMessage("sp");
+            string message3 = Message.GetMessage("na");
+            string message4 = Message.SomeMessage();
+            Console.WriteLine(message + message2 + message3 + message4);
             Console.ReadLine();
         }
     }
